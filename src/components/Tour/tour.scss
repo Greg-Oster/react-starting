@@ -1,0 +1,22 @@
+.single-tour {
+  max-width: 750px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-bottom: 25px;
+
+  .single-tour__img {
+    width: 100%;
+  }
+
+  .single-tour__details {
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .single-tour {
+    grid-template-columns: 1fr;
+  }
+}
